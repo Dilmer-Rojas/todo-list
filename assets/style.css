@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(232, 246, 255);
+  background-image: url('./background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   margin-top: 56px;
   display: flex;
@@ -12,12 +14,16 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #428fbb;
+  background: #00d5ffcb;
   height: 56px;
   /* padding-left: 15px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+h1 {
+  color: #00fff2;
 }
 
 #header span {
@@ -32,8 +38,8 @@ body {
 
 
 #container {
-  background-color: #428fbb;
-  box-shadow: 2px 2px 5px#000;
+  background-color: #2a056a8c;
+  box-shadow: 2px 2px 5px#18ff03;
   width: 50%;
   min-width: 700px;
   border-radius: 5px;
@@ -48,6 +54,7 @@ body {
 
 #toDoInput {
   outline: none;
+  background-color: #1b005c89;
   width: 75%;
   padding-left: 10px;
   font-size: 20px;
@@ -64,8 +71,8 @@ body {
   border-radius: 4px;
   cursor: pointer;
   height: 35px;
-  background: #0160A2;
-  color: #FFF;
+  background: #15025487;
+  color: #1efc01;
   font-size: 20px;
 }
 
@@ -83,7 +90,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #fff;
+  background: #2f005a80;
   margin-bottom: 10px;
   border-radius: 5px;
   font-size: 20px;
